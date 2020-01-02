@@ -1,0 +1,155 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 200;
+  /* line-height: 26px; */
+}
+hr {
+  width: 30px;
+  background-color: black;
+  height: 20px;
+}
+
+.site-container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 70px;
+  width: 100%;
+}
+header img {
+  -webkit-filter: grayscale(1);
+  opacity: 50;
+  height: 50px;
+  width: 123.14px;
+  position: absolute;
+  left: 50px;
+  margin-top: 0.7rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  right: 30px;
+  margin-top: 1rem;
+}
+
+nav li {
+  list-style: none;
+  padding: 0 17px;
+}
+
+nav a {
+  text-decoration: none;
+  display: flex;
+  color: black;
+}
+
+/* LANDING CONTAINER */
+
+.landing-div {
+  height: 506px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00695c;
+  background-image: url(https://www.luatix.org/wp-content/uploads/2016/10/background.png);
+  background-position: center top;
+}
+
+.landing-div h1 {
+  font-size: 3rem;
+}
+.landing-div p {
+  font-size: 2.5rem;
+}
+
+/* .landing-btn {
+  justify-self: center;
+  display: block;
+} */
+/* PROJECTS CONTAINER */
+
+.project {
+  overflow-y: hidden;
+  height: 400px;
+  background-color: #e4e4e4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.project img {
+  height: auto;
+  width: 50%;
+  object-fit: cover;
+  order: -99;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+/* Goals Container */
+
+.goals {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1r);
+  align-items: center;
+  justify-items: center;
+  margin: 0 8rem;
+  padding: 20px;
+}
+
+.goals p {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+/* CONTACT BUTTON DIV */
+.contact {
+  height: 150px;
+  width: 100%;
+  background-color: #00695c;
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  padding: 51px 21px;
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.contact .btn {
+  /* position: absolute;
+  right: 500px; */
+  margin: 0 0 0 35px;
+}
